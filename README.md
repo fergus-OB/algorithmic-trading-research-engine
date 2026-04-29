@@ -15,7 +15,7 @@ This repository is designed to demonstrate an end-to-end workflow for systematic
 - Track trades and portfolio performance
 - Evaluate results using performance metrics such as drawdown, win rate, Sharpe ratio, and return distribution
 
-## Planned Repository Structure
+## Repository Structure
 
 ```text
 algorithmic-trading-research-engine/
@@ -32,12 +32,9 @@ algorithmic-trading-research-engine/
 │   ├── execution.py
 │   └── logger.py
 ├── notebooks/
-│   └── strategy_research.ipynb
+│   └── README.md
 ├── outputs/
-│   ├── equity_curve.png
-│   ├── drawdown_curve.png
-│   ├── trade_log_sample.csv
-│   └── performance_summary.csv
+│   └── README.md
 ├── tests/
 │   └── test_strategy.py
 ├── README.md
