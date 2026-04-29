@@ -1,0 +1,20 @@
+# Example configuration file for the algorithmic trading research engine.
+# Do not store real API keys, passwords, or broker credentials in this file.
+
+data:
+  source: "sample_csv"
+  filepath: "data/sample_market_data.csv"
+
+backtest:
+  initial_capital: 10000
+  commission_per_trade: 0.00
+  slippage: 0.00
+
+risk:
+  risk_per_trade: 0.01
+  max_position_size: 1.00
+  max_drawdown_limit: 0.20
+
+strategy:
+  name: "example_strategy"
+  timeframe: "daily"
