@@ -14,6 +14,10 @@ This repository is designed to demonstrate an end-to-end workflow for systematic
 - Apply risk management rules
 - Track trades and portfolio performance
 - Evaluate results using performance metrics such as drawdown, win rate, Sharpe ratio, and return distribution
+- Fetch historical OHLCV data from Alpaca
+- Run a 15-minute GLD/IAU dip-buying strategy example
+- Use a broker wrapper for Alpaca paper-trading integration
+- Scan threshold-based strategy parameters for research
 
 ## Repository Structure
 
@@ -23,9 +27,15 @@ algorithmic-trading-research-engine/
 │   └── example_config.yaml
 ├── data/
 │   └── sample_market_data.csv
+├── research/
+  └── threshold_scan.py
+├── scripts/
+  ├── fetch_alpaca_data.py
+  └── run_gld_dip_strategy.py
 ├── src/
 │   ├── data_loader.py
 │   ├── indicators.py
+|   ├── broker.py
 │   ├── strategy.py
 │   ├── backtester.py
 │   ├── risk_management.py
